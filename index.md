@@ -22,8 +22,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Header 3
 
-```console
-// sh/bash code with syntax highlighting.
+```shell
 root@(none):/etc/abi/config# cd /
 root@(none):/# ls
 Connector	  bin	deeplaser  etc	 lost+found  opt   sbin     sys  var
