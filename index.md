@@ -22,12 +22,26 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```sh
+// sh/bash code with syntax highlighting.
+root@(none):/etc/abi/config# cd /
+root@(none):/# ls
+Connector	  bin	deeplaser  etc	 lost+found  opt   sbin     sys  var
+InstrumentServer  boot	dev	   home  media	     proc  selinux  tmp
+Settings	  data	eGUI	   lib	 mnt	     root  srv	    usr
+root@(none):/# cd eGUI/
+root@(none):/eGUI# ls
+application  lib  tslib
+root@(none):/eGUI# cd application/
+root@(none):/eGUI/application# s ls
+LICENSE.txt	 hawkUI_release  startCalibration.sh  templates
+calibrate_ts.sh  html		 startGUI.sh	      translations
+config.ini	 images		 stopGUI.sh	      version.ini
+defaultuser.ini  restartGUI.sh	 temp
+root@(none):/eGUI/application# ./restartGUI.sh 
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+root@(none):/eGUI/application# QWSTslibMouseHandlerPrivate: ts_open() failed with error: 'No such file or directory'
+Please check your tslib installation!
 ```
 
 ```ruby
