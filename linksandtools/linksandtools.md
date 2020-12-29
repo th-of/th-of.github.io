@@ -1,11 +1,51 @@
 ---
 layout: default
 ---
+
+
+<style>
+.tooltip {
+  position: absolute;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 800px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  top: 15px;
+  left: 180%;
+  
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+}
+</style>
+
 ## Bioinformatics
 
+<div class="tooltip" markdown="1">
 [SPAdes assembler](https://cab.spbu.ru/software/spades/)
+<span class="tooltiptext"> Arguably one of the most used de novo genome assemblers, easy to use, consistent results, relatively fast. Does read trimming and filtering.<br><br> spades.py -1 R1.fastq.tar.gz -2 R2.fastq.tar.fz -t 16 \--isolate -o results
+</span>
+</div>
+<br>
 
-[IDBA_UD](https://github.com/loneknightpy/idba)
+<div class="tooltip" markdown="1">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/loneknightpy/idba">IDBA_UD</a>
+<span class="tooltiptext"> This is not done yet.
+</span>
+</div>
+<br>
+<br>
 
 [SOAPdenovo2](https://github.com/aquaskyline/SOAPdenovo2)
 
