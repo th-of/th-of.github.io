@@ -94,6 +94,8 @@ layout: default
 
 [PyMOL](https://pymol.org/2/)
 
+[VESTA Visualization for Electronic and Structural Analysis](https://jp-minerals.org/vesta/en/download.html)
+
 ## Computational Chemistry
 
 [GAMESS](https://www.msg.chem.iastate.edu/gamess/)
